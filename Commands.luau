@@ -8,6 +8,9 @@
 	
 	This is a command bar code, that auto complete.
 	
+	Use Z to show up/hide command bar
+	You can use "Tab" to auto complete
+	
 	I struct code like this:
 		- Contants/Variables
 		- Utils Functions
@@ -110,8 +113,6 @@ local TweenService = game:GetService("TweenService")
 local HttpService = game:GetService("HttpService")
 local UserInputService = game:GetService("UserInputService")
 local Players = game:GetService("Players")
-
-local ReplicaClient = require(ReplicatedStorage.Modules.ReplicaClient)
 
 local R_UseCommands = ReplicatedStorage:WaitForChild("Remotes"):WaitForChild("UseCommand")
 
